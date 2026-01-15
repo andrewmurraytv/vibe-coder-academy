@@ -6,14 +6,17 @@ import { TestimonialCard } from "@/components/TestimonialCard";
 import { ModuleCard } from "@/components/ModuleCard";
 import { PriceBox } from "@/components/PriceBox";
 import { CountdownTimer } from "@/components/CountdownTimer";
+import { StickyCtaBar } from "@/components/StickyCtaBar";
 import { Check, Zap, Clock, DollarSign, Shield } from "lucide-react";
 import heroImage from "@/assets/hero-image.jpg";
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-background overflow-x-hidden">
+      {/* Sticky CTA Bar */}
+      <StickyCtaBar minutes={25} />
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center justify-center bg-gradient-hero py-20">
+      <section className="relative min-h-screen flex items-center justify-center bg-gradient-hero py-20 pt-28 md:pt-24">
         {/* Background glow effects */}
         <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-primary/20 rounded-full blur-[128px] pointer-events-none" />
         <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-secondary/20 rounded-full blur-[128px] pointer-events-none" />
