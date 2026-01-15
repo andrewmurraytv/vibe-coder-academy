@@ -99,10 +99,16 @@ const ThankYou = () => {
                   <p className="text-foreground/70 mb-4">
                     Jump straight into "The New Stack" and get your first AI coding environment set up in 15 minutes.
                   </p>
-                  <Button className="gap-2 bg-gradient-primary hover:opacity-90 transition-opacity">
-                    Access Your Course
-                    <ArrowRight className="w-4 h-4" />
-                  </Button>
+                  <a 
+                    href="https://lemontree.freshlearn.com/checkout/Course/38586"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Button className="gap-2 bg-gradient-primary hover:opacity-90 transition-opacity">
+                      Access Your Course
+                      <ArrowRight className="w-4 h-4" />
+                    </Button>
+                  </a>
                 </div>
               </div>
             </AnimatedSection>
