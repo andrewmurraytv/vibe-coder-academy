@@ -60,7 +60,10 @@ export const PriceBox = () => {
             label="Click here!" 
             className="absolute -top-16 right-0 text-accent hidden md:block"
           />
-          <CTAButton className="w-full text-center justify-center">
+          <CTAButton 
+            href="https://digitalabc.lemonsqueezy.com/checkout/buy/9c480fdc-7d32-4309-bc2b-a43aa8ee00c8"
+            className="w-full text-center justify-center"
+          >
             YES! I WANT TO BUILD APPS WITHOUT CODING — $57
           </CTAButton>
         </div>

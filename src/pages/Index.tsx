@@ -62,7 +62,7 @@ const Index = () => {
                 label="Start here" 
                 className="absolute -left-20 top-0 text-accent hidden lg:block"
               />
-              <CTAButton>
+              <CTAButton href="https://digitalabc.lemonsqueezy.com/checkout/buy/9c480fdc-7d32-4309-bc2b-a43aa8ee00c8">
                 Get Instant Access for Just $57
               </CTAButton>
             </div>
@@ -472,7 +472,10 @@ const Index = () => {
                 label="Your future starts here" 
                 className="absolute -top-20 -right-24 text-accent hidden lg:block"
               />
-              <CTAButton className="text-lg md:text-xl px-10 py-6">
+              <CTAButton 
+                href="https://digitalabc.lemonsqueezy.com/checkout/buy/9c480fdc-7d32-4309-bc2b-a43aa8ee00c8"
+                className="text-lg md:text-xl px-10 py-6"
+              >
                 YES! I WANT TO BUILD APPS WITHOUT CODING — $57
               </CTAButton>
             </div>
