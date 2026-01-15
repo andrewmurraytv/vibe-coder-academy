@@ -3,6 +3,7 @@ import { HandDrawnArrow } from "@/components/HandDrawnArrow";
 import { Callout } from "@/components/Callout";
 import { CTAButton } from "@/components/CTAButton";
 import { Clock, Lightbulb, Rocket, Zap, Check, Gift } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const projectExamples = [
   "AI-Powered Resume Builder",
@@ -258,9 +259,12 @@ const Upsell = () => {
           </AnimatedSection>
 
           <AnimatedSection delay={200}>
-            <button className="text-muted-foreground hover:text-foreground underline transition-colors">
+            <Link 
+              to="/thank-you" 
+              className="text-muted-foreground hover:text-foreground underline transition-colors"
+            >
               No thanks, I'll come up with project ideas on my own
-            </button>
+            </Link>
           </AnimatedSection>
         </div>
       </section>
