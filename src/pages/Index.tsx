@@ -5,6 +5,7 @@ import { CTAButton } from "@/components/CTAButton";
 import { TestimonialCard } from "@/components/TestimonialCard";
 import { ModuleCard } from "@/components/ModuleCard";
 import { PriceBox } from "@/components/PriceBox";
+import { CountdownTimer } from "@/components/CountdownTimer";
 import { Check, Zap, Clock, DollarSign, Shield } from "lucide-react";
 import heroImage from "@/assets/hero-image.jpg";
 
@@ -68,9 +69,9 @@ const Index = () => {
           </AnimatedSection>
 
           <AnimatedSection delay={600}>
-            <p className="text-sm text-muted-foreground mt-4">
-              Regular Price: <span className="line-through">$497</span> — Today Only: $57
-            </p>
+            <div className="mt-6">
+              <CountdownTimer minutes={25} />
+            </div>
           </AnimatedSection>
         </div>
       </section>

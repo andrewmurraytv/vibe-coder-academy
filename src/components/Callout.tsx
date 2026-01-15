@@ -10,7 +10,7 @@ export const Callout = ({ children, className, rotate = -3 }: CalloutProps) => {
   return (
     <div
       className={cn(
-        "relative inline-block px-4 py-2 font-handwritten text-2xl md:text-3xl text-accent animate-wiggle",
+        "relative inline-block px-4 py-2 font-handwritten text-2xl md:text-3xl text-accent animate-swell",
         className
       )}
       style={{ transform: `rotate(${rotate}deg)` }}
